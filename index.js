@@ -6,13 +6,6 @@ let homemenu = document.querySelector(".homemenu")
 let usermenu = document.querySelector(".usermenu")
 let worldmenu = document.querySelector(".worldmenu")
 
-ishgatushur()
-function ishgatushur() {
-    setTimeout(() => {
-        home() ;
-    }, );
-}
-
 
 function home() {
     homeclass.classList.remove("display_none")
@@ -48,3 +41,9 @@ function kontakt() {
         home() ;
     }, 5000);
 }
+
+
+function ishgatushur() {
+    home()
+}
+ishgatushur()
